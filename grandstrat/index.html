@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>Grand Strategy Game</title>
 
@@ -10,7 +11,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
 
     <style>
-        *, *:before, *:after {
+        *,
+        *:before,
+        *:after {
             box-sizing: border-box;
             padding: 0;
             margin: 0;
@@ -41,12 +44,14 @@
             text-align: justify;
         }
 
-        a:link, a:visited {
+        a:link,
+        a:visited {
             color: blue;
             text-decoration: none;
         }
 
-        a:hover, a:active {
+        a:hover,
+        a:active {
             color: red;
             text-decoration: underline;
         }
@@ -98,41 +103,53 @@
                 float: right;
             }
         }
+
+        @media (max-width: 800px) {
+            .credits ul {
+                margin-left: 30px;
+            }
+        }
     </style>
 </head>
+
 <body>
-<main>
-    <h1>Grand Strategy Game</h1>
-    <div class="hero">
-        <img src="screenshot1.png" alt="A screenshot of the game">
-        <img src="screenshot2.png" alt="A screenshot of the game">
-    </div>
-    <p>Grandstrat is a brand new grand strategy game with a large, living and immersive world. The world is inhabited by
-        many AI-based agents, such as the rulers of nations, generals, religious leaders and leaders of merchant
-        collectives. The player plays as one of these characters, and tries to secure their rightful place under the
-        sun.</p>
-    <p>The game is somewhat influenced by Paradox games such as Europa Universalis 4 and Victoria 2, and games like
-        Civilization.</p>
-    <p>Right from the start we knew our vision was too large to fully develop in the short period we were given, so we
-        decided that the main focus of this project would be on the technical systems, rather than graphical prowess or
-        well-designed gameplay.</p>
-    <a href="grandstrat.zip" download class="download">Download</a>
-    <br>
-    <small>(zip file, 319 kb)</small>
-    <section class="credits">
-        <p>This game was developed during the 2020-2021 games programming semester at Hogeschool Windesheim by the
-            following people:</p>
-        <ul>
-            <li>Max Huzen</li>
-            <li>Jeroen ten Hove</li>
-            <li>Kevin Joosten</li>
-            <li>Maciej Szulc</li>
-            <li>Kilian van Kasteel</li>
-            <li>Jefta van der Horst</li>
-        </ul>
-    </section>
-    <p>An earlier prototype was made a few years before and is available
-        <a href="http://games.jefta.eu/grandstrat">here</a>.</p>
-</main>
+    <main>
+        <h1>Grand Strategy Game</h1>
+        <div class="hero">
+            <img src="screenshot1.png" alt="A screenshot of the game">
+            <img src="screenshot2.png" alt="A screenshot of the game">
+        </div>
+        <p>Grandstrat is a brand new grand strategy game with a large, living and immersive world. The world is
+            inhabited by
+            many AI-based agents, such as the rulers of nations, generals, religious leaders and leaders of merchant
+            collectives. The player plays as one of these characters, and tries to secure their rightful place under the
+            sun.</p>
+        <p>The game is somewhat influenced by Paradox games such as Europa Universalis 4 and Victoria 2, and games like
+            Civilization.</p>
+        <p>Right from the start we knew our vision was too large to fully develop in the short period we were given, so
+            we
+            decided that the main focus of this project would be on the technical systems, rather than graphical prowess
+            or
+            well-designed gameplay.</p>
+        <a href="grandstrat.zip" download class="download">Download</a>
+        <br>
+        <small>(zip file, 319 kb)</small>
+        <section class="credits">
+            <p>This game was developed during the 2021 games programming semester at Hogeschool Windesheim by the
+                following people:</p>
+            <ul>
+                <li>Max Huzen</li>
+                <li>Jeroen ten Hove</li>
+                <li>Kevin Joosten</li>
+                <li>Maciej Szulc</li>
+                <li>Kilian van Kasteel</li>
+                <li>Jefta van der Horst</li>
+            </ul>
+        </section>
+        <p>An earlier prototype was made a few years before and is available
+            <a href="http://games.jefta.eu/grandstrat">here</a>.
+        </p>
+    </main>
 </body>
+
 </html>
